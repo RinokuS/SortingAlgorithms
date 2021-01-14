@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rinokus/Documents/Projects/SortingAlgorithms/Advanced/QuickSort_Iterative/main.cpp
+iostream
+-
+vector
+-
+stack
+-
+
