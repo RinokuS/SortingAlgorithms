@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rinokus/Documents/Projects/SortingAlgorithms/Advanced/QuickSort_Recursive/main.cpp
+iostream
+-
+vector
+-
+
