@@ -8,14 +8,17 @@ void insertion_sorting(vector<T>& vec) {
     size_t ind_for_insertion;
     for (size_t i = 1; i < vec.size(); ++i) {
         ind_for_insertion = i;
-        T temp = vec[i];
-        vec.erase(vec.begin() + i);
 
-        for (size_t j = i; j > 0; --j)
-            if (vec[j - 1] > temp)
+        for (size_t j = i; j > 0; --j) {
+            if (vec[j - 1] > vec[i])
                 ind_for_insertion = j - 1;
+        }
 
-        vec.insert(vec.begin() + ind_for_insertion, temp);
+        if (ind_for_insertion != i) {
+            T temp = vec[i];
+            vec.erase(vec.begin() + i);
+            vec.insert(vec.begin() + ind_for_insertion, temp);
+        }
     }
 }
 
