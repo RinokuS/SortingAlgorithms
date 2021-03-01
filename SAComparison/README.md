@@ -1,7 +1,7 @@
 # Соколовский Вацлав, БПИ191
 ## Исследование времени работы алгоритмов сортировки
 
-В [данной папке](https://github.com/RinokuS/SortingAlgorithms/SAComparison) представлены исходники исследовательского проекта на языке C++ и python-скрипт для генерации графиков. Все графики также сохранены в формате .png в [SACompariso/Charts](https://github.com/RinokuS/SortingAlgorithms/SAComparison/Charts)
+В [данной папке](https://github.com/RinokuS/SortingAlgorithms/SAComparison) представлены исходники исследовательского проекта на языке C++ и python-скрипт для генерации графиков. Все графики также сохранены в формате .png в [SACompariso/Charts](https://github.com/RinokuS/SortingAlgorithms/tree/main/SAComparison/Charts)
 
 ## Цель работы
 Экспериментальное определение временной сложности сортировок различных массивов различными методами и сравнительный анализ полученных результатов.
@@ -33,10 +33,10 @@
 
 ## Функционал
 Для удобства выполнения и повторения эксперимента были реализованы:
-1. Четыре функции для генерации массивов четырех необходимых типов по заданной необходимой размерности ([data_creator.h](https://github.com/RinokuS/SortingAlgorithms/SAComparison/data_creator.h))
+1. Четыре функции для генерации массивов четырех необходимых типов по заданной необходимой размерности ([data_creator.h](https://github.com/RinokuS/SortingAlgorithms/blob/main/SAComparison/data_creator.h))
 2. Функция проверки отсортированности массива после завершения работы алгоритма 
 3. Функция вывода массивов в текстовые файлы для удобства проверки
-4. Скрипт для генерации графиков с помощью pandas и matplotlib ([charts.ipynb](https://github.com/RinokuS/SortingAlgorithms/SAComparison/charts.ipynb))
+4. Скрипт для генерации графиков с помощью pandas и matplotlib ([charts.ipynb](https://github.com/RinokuS/SortingAlgorithms/blob/main/SAComparison/charts.ipynb))
 
 ## Отчет
 Результатом проведения исследовательской работы являются 24 графика.
